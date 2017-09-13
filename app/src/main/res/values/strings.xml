@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Git Repo Issue</string>
+    <string name="issue">Get Issue</string>
+    <string name="owner_error">Owner Name can not be empty </string>
+    <string name="repo_error">Repo Name can not be empty </string>
+
+</resources>
