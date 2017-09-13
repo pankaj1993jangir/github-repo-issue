@@ -4,4 +4,5 @@
     <string name="owner_error">Owner Name can not be empty </string>
     <string name="repo_error">Repo Name can not be empty </string>
 
+    <string name="other_repo">No issue! Try with some other owner/repo combination</string>
 </resources>

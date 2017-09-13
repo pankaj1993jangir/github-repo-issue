@@ -98,12 +98,12 @@ public class RepoActivity extends AppCompatActivity implements RepoIssueView, Ad
 
     @Override
     public void uploadIssueInList(List<RepoIssue> list) {
-        totalIssue.setVisibility(View.GONE);
         issueList.clear();
 
 
         if (list == null || list.size() < 1) {
-            showToast("No issue! Try with some other owner/repo combination");
+            showToast(getResources().getString(R.string.other_repo));
+            totalIssue.setText(getResources().getString(R.string.other_repo));
             issueAdapter.notifyDataSetChanged();
             return;
         }
